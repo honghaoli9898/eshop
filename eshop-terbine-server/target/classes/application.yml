@@ -1,0 +1,14 @@
+spring:
+  application.name: hystrix-terbine-server
+server:
+  port: 8765
+security.basic.enabled: false
+turbine:
+  aggregator:
+    clusterConfig: default   
+  appConfig: GREETING-SERVICE
+  clusterNameExpression: new String("default")
+eureka:
+  client:
+    serviceUrl:
+      defaultZone: http://admin:123456@localhost:8761/eureka/

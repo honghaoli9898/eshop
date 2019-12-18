@@ -1,0 +1,10 @@
+Manifest-Version: 1.0
+Implementation-Title: eshop-zuul-server
+Implementation-Version: 1.0.0
+Built-By: lihonghao
+Implementation-Vendor-Id: com.roncoo.eshop
+Build-Jdk: 1.8.0_191
+Implementation-URL: https://projects.spring.io/spring-boot/#/spring-bo
+ ot-starter-parent/eshop/eshop-zuul-server
+Created-By: Maven Integration for Eclipse
+

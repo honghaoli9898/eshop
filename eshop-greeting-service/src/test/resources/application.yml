@@ -1,0 +1,18 @@
+server:
+  port: 8764
+spring:
+  application:
+    name: greeting-service
+#打开断路器
+feign:
+  hystrix:
+    enabled: true
+#新增路径访问允许     
+management:
+  endpoints:
+    web:
+      exposure:
+        include: "*"
+      cors:
+        allowed-origins: "*"
+        allowed-methods: "*"    
